@@ -1,0 +1,61 @@
+body {
+	font-family: Courier New;
+	font-size: 0.9em;	
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 2em;
+	background:url(./images/background.jpg) no-repeat fixed 0 0 #ffffff;
+}
+
+.box {
+	padding: 0.5em;
+	margin: 1em auto;
+	width: 80%;
+	color:#000000;
+	background-color:#9CC5F3;
+	font-weight: bold;
+	border:5px solid #000000;
+}
+
+a {
+	font-size: 0.9em;
+	background:url(./images/external_link.png) 0% 40% no-repeat; 
+	padding-left: 1.1em;
+	font-weight: normal;
+}
+
+li {
+	padding: 0.5em 2em;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 2em;
+}
+
+li:nth-child(odd)    { background-color:#eee; }
+li:nth-child(even)    { background-color:#ccc; }
+
+.nostyle {
+	background:none;
+	text-decoration: none;
+	color: #000000;
+	padding-left: 0;
+}
+
+h1 {
+	font-size: 1.1em;
+	font-weight: bold;
+	background-color: #ffffff;
+	padding: 0.5em;
+}
+
+.de {
+ background:url(./images/flags/de.gif) 0.4em 0.7em no-repeat;  
+}
+
+.en {
+ background:url(./images/flags/us.gif) 0.4em 0.7em no-repeat;
+}
